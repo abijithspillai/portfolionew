@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+    padding: 25px;  
+    color: rgb(10, 119, 36);
+}
+h3{
+    text-align: center;
+    color: rgb(173, 54, 54);
+}
+.about{
+    background-color: rgb(238, 238, 238);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.45s ease-out,box-shadow 0.45s ease-out;
+} 
+.about:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(50, 100, 200, 0.3);
+}
+.skill{
+    background-color: rgb(238, 238, 238);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.45s ease-out,box-shadow 0.45s ease-out;
+} 
+.skill:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(50, 100, 200, 0.3);
+}
+.project{
+    background-color: rgb(238, 238, 238);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.45s ease-out,box-shadow 0.45s ease-out;
+} 
+.project:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(50, 100, 200, 0.3);
+}
+.feedback {
+    background-color: #eee;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.feedback form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.feedback input,
+.feedback textarea {
+    padding: 6px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.feedback textarea {
+    height: 70px; 
+}
+.feedback button {
+    padding: 8px;
+    background-color: rgb(255, 111, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+    font-size: 13px;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px; 
+    margin-top: 20px; 
+    color: rgb(10, 119, 36);
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
